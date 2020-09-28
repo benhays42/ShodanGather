@@ -17,7 +17,7 @@ gethosts.py [-h] [-t TARGETS] [-s SEARCH] [-o OUTPUT] [-p PORT] [-honeypot HONEY
   --timeout TIMEOUT     Set a time between scans (In seconds)
 
 # Installation
-git clone
+git clone https://github.com/benhays42/ShodanGather.git
 cd ShodanGather-master
 chmod +x gethosts.py
 ./gethosts.py 
