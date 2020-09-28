@@ -1,7 +1,7 @@
 # ShodanGather
 Shodan gather is a python based Shodan (Shodan.io) tool to search for devices on the internet based on certain filters.
 
-#Usage
+# Usage
 gethosts.py [-h] [-t TARGETS] [-s SEARCH] [-o OUTPUT] [-p PORT] [-honeypot HONEYPOT] [--timeout TIMEOUT]
 
 -t TARGETS, --targets TARGETS  Set a number of targets to find
