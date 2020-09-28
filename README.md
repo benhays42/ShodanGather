@@ -4,7 +4,7 @@ Shodan gather is a python based Shodan (Shodan.io) tool to search for devices on
 # Usage
 gethosts.py [-h] [-t TARGETS] [-s SEARCH] [-o OUTPUT] [-p PORT] [-honeypot HONEYPOT] [--timeout TIMEOUT]
 
--t TARGETS, --targets TARGETS  Set a number of targets to find
+-t TARGETS, --targets TARGETS  Set a number of targets to find \n
 -s SEARCH, --search SEARCH   Set a device search term to look for
 -o OUTPUT, --output OUTPUT   Set a output file to write ips to
 -p PORT, --port PORT  Set a port to look for
