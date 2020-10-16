@@ -18,7 +18,7 @@ parser.add_argument("--timeout", help="Set a time between scans (In seconds)", d
 args = parser.parse_args()
 NUM_OF_TARGETS = args.targets
 TBUFFER = 0
-SHODAN_API_KEY = "Tf4AqUDh2XHloLHSI3ObliTqrk4bk3BR"
+SHODAN_API_KEY = ""
 api = shodan.Shodan(SHODAN_API_KEY)
 try:
         # Search Shodan
