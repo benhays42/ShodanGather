@@ -8,7 +8,7 @@ Shodan gather is a python based Shodan (Shodan.io) tool to search for devices on
   -s SEARCH, --search SEARCH   Set a device search term to look for    
   -o OUTPUT, --output OUTPUT   Set a output file to write ips to    
   -p PORT, --port PORT  Set a port to look for                            
-  -honeypot HONEYPOT    Scan list of ips for a potential honeypot (Use shodan in HONEYPOT field to start) (Uses api key a lot (Warning))                   
+  -honeypot  Scans list of ips for a potential honeypot               
   --timeout TIMEOUT     Set a time between scans (In seconds)  
 ```
 # Installation
