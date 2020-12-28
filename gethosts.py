@@ -13,7 +13,7 @@ parser.add_argument("-t", "--targets", help="Set a number of targets to find", d
 parser.add_argument("-s", "--search", help="Set a device search term to look for", default="apache")
 parser.add_argument("-o", "--output", help="Set a output file to write ips to", default=None)
 parser.add_argument("-p", "--port", help="Set a port to look for", default=None)
-parser.add_argument("-honeypot", help="Scan list of ips for a potential honeypot (Uses api key a lot (Warning))", default=None)
+parser.add_argument("-honeypot", action='store_true', default=None)
 parser.add_argument("--timeout", help="Set a time between scans (In seconds)", default=0.3)
 args = parser.parse_args()
 NUM_OF_TARGETS = args.targets
